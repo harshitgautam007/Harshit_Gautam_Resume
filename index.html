@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Kumar Gautam - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aadd 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .photo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .photo img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Harshit Kumar Gautam</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="photo">
+            <img src="cv_photo.jpg" alt="Harshit Kumar Gautam">
+        </div>
+
+        <div class="content" id="about">
+            <div class="section">
+                <h2>About Me</h2>
+                <p>I am Harshit Kumar Gautam, currently pursuing B.Tech and M.Tech in Computer Science & Engineering from the Indian Institute of Technology, Delhi. I am passionate about machine learning, artificial intelligence, and software development. I am keen on solving complex problems and constantly learning new technologies.</p>
+            </div>
+        </div>
+
+        <div class="content" id="experience">
+            <div class="section">
+                <h2>Experience</h2>
+                <h3>Prof. Tarak Karmakar</h3>
+                <p><strong>Modelling Crystallisation Using ML based Simulations</strong> (June 2023 - September 2023)</p>
+                <ul>
+                    <li>Used Deep Learning techniques such as Variational Auto Encoder to train the Neural Network using the datasets.</li>
+                    <li>Used parameters such as distance, coordination number to test the validity of VAE.</li>
+                </ul>
+                <h3>Prof Mausam - Delhi</h3>
+                <p><strong>Chess Bot Using AI Search</strong> (October 2023 - November 2023)</p>
+                <ul>
+                    <li>Used Mini-Max Search and Monte-Carlo Tree Search with the help of alpha-beta pruning.</li>
+                    <li>Based on manually created evaluation function with input weights.</li>
+                </ul>
+                <h3>Prof Mausam</h3>
+                <p><strong>Finding Missing Probabilities in Bayesian Network</strong> (October 2023)</p>
+                <ul>
+                    <li>Given a Bayesian network for Medical Diagnosis.</li>
+                    <li>Goal was to find the missing conditional probabilities using the convergence algorithm.</li>
+                </ul>
+                <h3>Prof Mausam</h3>
+                <p><strong>Formulation and Solving a SAT Problem</strong> (September 2023 - October 2023)</p>
+                <ul>
+                    <li>Given a graph G and numbers k1, k2. Goal was to check if there exist subgraphs of sizes k1, k2 such that they are complete.</li>
+                    <li>Converted the problem into CNF SAT problem and solved it using SAT-solver.</li>
+                </ul>
+                <h3>Prof Rijurekha Sen</h3>
+                <p><strong>Multi-Level Cache Simulator</strong> (May 2023)</p>
+                <ul>
+                    <li>Implemented 2 Level Cache Simulator consisting of L1 Cache (Primary Cache) and L2 Cache (Secondary Cache).</li>
+                    <li>Calculated L1 Miss Rate, L1 Hit Rate, L2 Miss Rate, L2 Hit Rate, L1 Writebacks, L2 Writebacks, Number of Reads, writes.</li>
+                </ul>
+                <h3>Prof Abhilash Jindal</h3>
+                <p><strong>Website Development</strong> (April 2023)</p>
+                <ul>
+                    <li>Launched a website named Onsite.com for marking and managing the attendance of employees in Corporate.</li>
+                    <li>Worked as the front-end developer of the website, managing the design/layout and appearance of the website.</li>
+                </ul>
+                <h3>Prof. Rijurekha Sen</h3>
+                <p><strong>5 Stage MIPS Processor</strong> (April 2023)</p>
+                <ul>
+                    <li>Used struct to make 5 stages: Instruction (IF) Fetch, Instruction Decode (ID), ALU, Memory (MEM), Write Back (WB).</li>
+                    <li>Comprised of state, new state where each state has 5 stages, stage of one state is linked with other stage of new state.</li>
+                </ul>
+                <h3>Prof. Abhilash Jindal</h3>
+                <p><strong>Implementing Concurrency and Parallelism</strong> (January 2023)</p>
+                <ul>
+                    <li>Learned about using and switching between Contexts using ucontext.h header file in C.</li>
+                    <li>Learned Implementing pthreads in C, comparative analysis between self-made threads and pthreads in C.</li>
+                </ul>
+                <h3>Prof Naveen Garg</h3>
+                <p><strong>Pattern Searching</strong> (October 2022)</p>
+                <ul>
+                    <li>Used a Hashmap to Solve the problem in Big O(m Logm + logn) given m is the length of string, n is the length of text.</li>
+                    <li>Used Algorithm influenced by Rabin-Karp Algorithm and KMP Algorithm to solve the first part of the problem.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content" id="education">
+            <div class="section">
+                <h2>Education</h2>
+                <h3>Indian Institute of Technology, Delhi</h3>
+                <p>B.Tech and M.Tech in Computer Science & Engineering (GPA: 7.51)</p>
+                <h3>Bishop Conrad Senior Secondary School, Bareilly, India</h3>
+                <p>Higher Secondary Examination (GPA: 97.2%) - April 2021</p>
+                <p>Secondary Examination (GPA: 93%) - April 2019</p>
+            </div>
+        </div>
+
+        <div class="content" id="skills">
+            <div class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>C/C++</li>
+                    <li>HTML</li>
+                    <li>PostgreSQL</li>
+                    <li>MIPS Assembly</li>
+                    <li>VHDL</li>
+                    <li>Bash Script</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content" id="achievements">
+            <div class="section">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Summer Undergraduate Research Award: Awarded grant of INR 32k by IRD, GOI for exceptional research aptitude, 2023</li>
+                    <li>KVPY Fellow: Fellowship by IISc, Dept of Science and Technology, Govt. of India for excellent scientific aptitude, 2021</li>
+                    <li>NTSE First Stage: Qualified 1st Stage from UP, 2019</li>
+                    <li>Secured Rank 22 (Category Rank) in KVPY (Kishore Vaigyanik Protsahan Yojana) 2021</li>
+                    <li>Secured AIR 2101 in JEE Advanced, 2021</li>
+                    <li>Qualified the first stage of NTSE (National Talent Search Examination, 2019)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content" id="contact">
+            <div class="section">
+                <h2>Contact Information</h2>
+                <ul class="contact-info">
+                    <li><strong>Address:</strong> Bareilly, IN 243006</li>
+                    <li><strong>Phone:</strong> 9045790625</li>
+                    <li><strong>Email:</strong> cs5210129@iitd.ac.in</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
